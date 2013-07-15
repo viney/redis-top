@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>搜索排行榜</title>
+</head>
+<body>
+	<table>
+		<h1>搜索排行榜</h1>
+        <tr>
+            <td>{{.Google}}</td>
+            <td>{{.Baidu}}</td>
+            <td>{{.Bing}}</td>
+		</tr>
+		<tr>
+            <td bgcolor="#FF0000">Google</td>
+            <td bgcolor="#00FF00">Baidu</td>
+            <td bgcolor="#0000FF">Bing</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FF0000">
+                <a href="/top?top=google">+1</a>
+			</td>
+			<td bgcolor="#00FF00">
+                <a href="/top?top=baidu">+1</a>
+			</td>
+			<td bgcolor="#0000FF">
+                <a href="/top?top=bing">+1</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
